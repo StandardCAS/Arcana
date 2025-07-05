@@ -1,121 +1,120 @@
-![MIT License](https://img.shields.io/badge/license-CC.BY.ND.SA-green.svg)
+![License: CC BY-SA](https://img.shields.io/badge/license-CC.BY.SA-green.svg)
 ![ArcanaLTE Version](https://img.shields.io/badge/version-ArcanaLTE%201.2Ash01-blue)
-![Development Status](https://img.shields.io/badge/status-PublicInUse-orange)
+![Development Status](https://img.shields.io/badge/status-Public%20Release-orange)
 ![Built with Streamlit](https://img.shields.io/badge/built%20with-Streamlit-ff4b4b?logo=streamlit)
 ![Powered by StandardCAS](https://img.shields.io/badge/powered%20by-StandardCAS™-purple)
 
 ---
 
-# 🌌 Welcome to Arcana  
-✨ By the Indexademics Team | Powered by StandardCAS™
-[*Version 1.2 Ash 01 (2025-6-27)*]
+# 🌌 Welcome to Arcana
 
---- 
+✨ Crafted by the Indexademics Team | Powered by StandardCAS™
+\[*Version 1.2 Ash 01 (June 27, 2025)*]
+
+---
+
 ## 📚 Table of Contents
-1. [Introduction](https://github.com/CelsiaSolaraStarflare/Arcana/blob/ArcanaLTE/README.md#-introduction)
-2. [Versions](https://github.com/CelsiaSolaraStarflare/Arcana/blob/ArcanaLTE/README.md#-available-versions)
-3. [Make It Yours – Private & Custom Chatbots](https://github.com/CelsiaSolaraStarflare/Arcana/blob/ArcanaLTE/README.md#-make-it-private-and-customized)
-4. [How to Use](https://github.com/CelsiaSolaraStarflare/Arcana/blob/ArcanaLTE/README.md#-how-to-use)
-5. [Works Cited](https://github.com/CelsiaSolaraStarflare/Arcana/blob/ArcanaLTE/README.md#-works-cited)
-6. [License](https://github.com/CelsiaSolaraStarflare/Arcana/blob/ArcanaLTE/README.md#-license)
+
+1. [Introduction](#-introduction)
+2. [Available Versions](#-available-versions)
+3. [Make It Yours – Private & Custom Chatbots](#-make-it-private-and-customized)
+4. [How to Use](#-how-to-use)
+5. [Credits & Technologies](#-credits--technologies)
+6. [License](#-license)
 
 ---
 
 ## 💖 Introduction
 
-Welcome to **Arcana** — your intelligent, dynamic study resource hub! Built to empower students with fast and accurate support, Arcana is designed to help you succeed in your learning journey through smart question answering, document indexing, and rich content generation.
+Welcome to **Arcana** — a powerful and intuitive platform for building dynamic study tools and document-aware AI chatbots. Designed to support a wide range of users, from individual learners to educators and developers, Arcana combines speed, intelligence, and customization in one sleek package.
 
-Whether you're studying for exams or building resources, Arcana is your trusty academic sidekick.
-
-For users in the CLASS OF '27: The responses you receive will likely be from Peer Advisor materials. Here is a disclaimer that review guides, practice sets, and practice tests are UNOFFICIAL sources of reference and do NOT include or hint at questions in the actual exams! 
-
+Whether you're reviewing content, creating resources, or building knowledge-based assistants, Arcana is here to empower your work with ease and flair.
 
 ---
 
 ## 🔮 Available Versions
 
-You are currently using **ArcanaLTE (Long Term Evolution)**, the lightweight yet powerful version of the Indexademics platform.
+You're currently using **ArcanaLTE**, the lightweight and stable branch of the Arcana ecosystem. Below are other versions available:
 
 ```
 ArcanaLTE Æ102  (Current)
-✔ Full Indexademics chatbot functionality
-✔ Document-based database searching
-✔ ArcanaMixup for PPT and Doc generation
+✔ Lightweight AI chatbot with document indexing
+✔ Streamlined interface for fast deployment
+✔ ArcanaMixup tool for generating slides and documents
 
 ArcanaExtreme ß101
-➕ All features of ArcanaLTE
-➕ Peer Advisor Journalism suite
-➕ StandardCAS™ report generator
-➕ Transcription, TTS audio, image generation, visual interpreters
+➕ All features of LTE
+➕ Integrated journalism & content suite
+➕ Report generator via StandardCAS™
+➕ Multimedia tools (TTS, transcription, image generation, etc.)
 
-ArcanaDesktop θ101 (macOS Only) 
-➕ Homework auto analysis
-➕ Task manager with auto-resolved calendar
-➕ Web analytics, AGI admin workflows
-
+ArcanaDesktop θ101 (macOS Only)
+➕ Smart homework analyzer
+➕ Built-in task manager & calendar tools
+➕ Local AI admin & analytics workflows
 
 ArcanaDB
-📁 Database creation suite for independent AI chatbots
-📁 Ideal for flexible custom data integration
+📁 Build independent AI chatbots using your own datasets
+📁 Great for custom knowledge bases & flexible applications
 ```
 
 ---
 
-## 🛡 Make It Private and Customized!
+## 🛡 Make It Private and Customized
 
-Want to keep your chatbot private and unique to your needs? We've got you covered. Arcana is built with **Streamlit**, which makes it easy to:
+Arcana is built on **Streamlit**, making it easy for developers and users to clone, customize, and host their own private AI chatbots.
 
-- Fork this repository 💻  
-- Deploy your own **private chatbot server** 🔐  
-- Customize settings, style, and plugins to your personal preferences 🎨
+You can:
+
+* Fork this repo and spin up your own instance
+* Modify UI, responses, and model settings
+* Build plugins or integrate with existing systems
+
+It’s perfect for educators, startups, or anyone wanting an AI tailored to their world. 💻🔐🎨
 
 ---
 
 ## 📘 How to Use
 
-New here? Don’t worry, angel! Here's a quick rundown of the key concepts and how you can start using Arcana today.
+Ready to dive in? Here's how Arcana works:
 
-### 🔍 Key Terms
-- **Indexing**: Converts files (PPTs, PDFs, DOCXs, CSVs, etc.) into structured, searchable data.
-- **IDXDB**: The "Database" — a temporary, session-based data cache used during chatbot interactions.
+### 🔍 Key Concepts
 
-### 🧭 Navigation and Interface
+* **Indexing**: Upload files (PDF, DOCX, PPT, CSV, etc.), and Arcana converts them into structured data for search and Q\&A.
+* **IDXDB**: A session-based database that holds your indexed data temporarily for chat interactions.
+
+### 🧭 Interface Overview
 
 ```txt
 🌟 Chatbot Page:
- - "Default" Mode → Uses ArcanaLTE's general AI bot
- - "IDX" Mode → Searches your own database content (from uploaded files)
- - "Reasoning" Mode → Uses the Qwen-QWQ model for in-depth, logical responses
- - "Long Text" Mode → Combines indexing and the Qwen-Long Text model for longer, more contextual answers
+ - Default Mode → Chat with Arcana's general AI
+ - IDX Mode → Query your own indexed files
+ - Reasoning Mode → Logical responses via the Qwen-QWQ model
+ - Long Text Mode → In-depth Q&A using long-context models
 
 📂 Files Page:
- - Drag and drop your files to upload them
- - Wait for pre-indexing to finish
- - Files will appear in the "Finder" section
- - Organize your data and click "Index to Database" to finalize it
- - Once indexing is complete, switch to "IDX" mode in Chatbot to begin querying your data!
+ - Upload files via drag and drop
+ - Arcana pre-indexes the content
+ - Files show up in the Finder tab
+ - Click "Index to Database" to lock in content
+ - Use IDX mode to start asking questions from your material
 ```
 
 ---
 
-## 📚 Works Cited and Credits
+## 📚 Credits & Technologies
 
 ```
-For this Chatbot: 
-Arcana Chatbot, Indexademics. March 31st, 2025. Powered by StandardCAS™.
-FiberDB, StandardCAS™. Chengjui Osmond Fan, Juilyn Celsia. April 3, 2025.
+Developed by:
+🛠 Osmond — Algorithm, backend DB design, APIs
+🎨 Celsia — UI, user flow design, integration framework
+🔧 Brian — Debugging and mirroring platform
+🧪 Pete — Database testing and validation
 
-For the Development Team:
-Osmond G11 - Base algorithm coding, DBMS designing, API functions, and Accessories.
-Celsia G11 - UI Coding and Swap Platform conditioning.
-Brian G10 - Debugging and mirroring platform. 
-Pete G10 - Database arrangement and testing.
-
-For the Utilized Technologies:
-Qwen, Alibaba Cloud Group.
-Streamlit 1.22, Streamlit.io.
-
-
+Powered by:
+- Streamlit 1.22 (streamlit.io)
+- Qwen (by Alibaba Cloud)
+- FiberDB, an internal DBMS developed by StandardCAS™
 ```
 
 ---
@@ -123,20 +122,17 @@ Streamlit 1.22, Streamlit.io.
 ## 📜 License
 
 ```
-This project is licensed under CC-BY-SA by Indexademics.
+Licensed under Creative Commons CC-BY-SA.
 
-This means:
-❌ No unauthorized redistribution
-✅ Attribution required
-✅ Sharing with proper credit allowed
-✅ Develope Alike Local Chatbots Upon this Basis
+You may:
+✅ Reuse and remix with attribution  
+✅ Build upon this platform with credit  
+❌ Not redistribute without proper licensing  
+✅ Deploy and modify local instances for development and learning
 
-StandardCAS™ contributed to major portions of code and infrastructure. They hold a lifelong, irrevocable license to distribute and modify the Arcana platform, under synchronization with Indexademics.
-
-The Arcanalte model is based on Qwen (Alibaba Cloud), and fine-tuned by Indexademics.
-
-Copyright © Indexademics 2023–
-Copyright © StandardCAS™ 2019–
+StandardCAS™ holds all rights alongside with Indexademics(SHSID) for the ArcanaExtreme platform.  
+ArcanaExtreme uses Qwen models on API provided by Alibaba Group.
+Build upon Streamlit. 
 ```
 
-> ⚠️ The ArcanaLTE version is fully sponsored by Indexademics.
+> 💡 ArcanaExtreme is a public release, open for use by students, developers, and institutions.
